@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import {RLPReader} from "./rlp/RLPReader.sol";
-import {DynamicBufferLib} from "./DynamicBufferLib.sol";
+import {DynamicBufferLib} from "solady/utils/DynamicBufferLib.sol";
 
 /**
  * @title RLPDecoder
